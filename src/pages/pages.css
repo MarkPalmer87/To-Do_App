@@ -1,0 +1,134 @@
+/* CSS Styling for All Pages */
+
+/* ---------- Contact Page Styles ---------- */
+
+/* Container for Contact Page */
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Style for the heading on the Contact page */
+.contact-heading {
+  margin-bottom: 40px; /* Space below the heading */
+}
+
+.contact-heading h2 {
+  text-align: center;
+}
+
+/* Style for the form box */
+.form-box {
+  width: 95vw; /* Set the form width to 95% of the viewport width */
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Grid layout for the form */
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr; /* One column */
+  grid-template-rows: auto auto auto auto auto; /* Five rows */
+  grid-row-gap: 15px; /* Gap between rows */
+}
+
+/* Grid area definitions */
+.contact-first-name {
+  grid-area: firstName;
+}
+
+.contact-last-name {
+  grid-area: lastName;
+}
+
+.contact-email {
+  grid-area: email;
+}
+
+.contact-comments {
+  grid-area: comments;
+}
+
+.contact-submit {
+  grid-area: submit;
+  display: flex; /* Ensure button is left-aligned */
+  justify-content: flex-start;
+}
+
+/* Define grid area positions */
+.contact-form {
+  grid-template-areas: 
+    "firstName"
+    "lastName"
+    "email"
+    "comments"
+    "submit";
+}
+
+/* Style for form group elements */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style for input fields */
+.contact-first-name,
+.contact-last-name,
+.contact-email,
+.contact-comments {
+  width: 100%; /* Full width input field */
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for textarea */
+.contact-comments {
+  height: 100px; /* Set a fixed height for the textarea */
+}
+
+/* Style for buttons */
+.contact-submit {
+  width: 100px; /* Width of the button */
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-submit:hover {
+  background-color: #0056b3;
+}
+
+/* ---------- Account Management Page Styles ---------- */
+
+/* Style for email input group */
+#Acct-email-group {
+  padding: 20px;
+}
+
+/* Style for submit button */
+#Acct-submit-button {
+  border-radius: 50px;
+  height: 45px;
+  margin-right: 20px;
+  color: white;
+}
+
+/* Style for reset info container */
+#Acct-reset-info {
+  display: flex; /* Ensure button is left-aligned */
+  justify-content: flex-start;
+}

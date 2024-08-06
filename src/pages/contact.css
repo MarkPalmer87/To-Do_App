@@ -1,0 +1,69 @@
+/* ---------- Contact Form Styles ---------- */
+
+/* Ensure the form container uses grid layout */
+.contact-form {
+  display: grid;
+  gap: 20px; /* Space between rows and columns */
+  grid-template-columns: 1fr; /* Single column layout */
+  max-width: 900px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+}
+
+/* ---------- Form Group Styles ---------- */
+
+/* Style individual form groups */
+#contact-first-name-group,
+#contact-last-name-group,
+#contact-email-group,
+#contact-comments-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Label and Input Styles ---------- */
+
+/* Style for labels */
+#contact-first-name-group label,
+#contact-last-name-group label,
+#contact-email-group label,
+#contact-comments-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style for input fields and textarea */
+#contact-first-name-group input,
+#contact-last-name-group input,
+#contact-email-group input,
+#contact-comments-group textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; 
+}
+
+/* Additional style for textarea */
+#contact-comments-group textarea {
+  height: 100px; 
+}
+
+/* ---------- Submit Button Styles ---------- */
+
+/* Style for the submit button */
+#contact-submit-button {
+  padding: 10px;
+  height: 40px;
+  margin-top: 80px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+#contact-submit-button:hover {
+  background-color: #0056b3;
+}

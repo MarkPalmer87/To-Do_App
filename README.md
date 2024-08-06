@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+**Welcome to Mark Palmer's To-Do-List React Application.**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application was created with React, and Redux and is intended to demonstrate usage of react components, and managing state changes for the application. 
 
-## Available Scripts
+The application will allow users to add tasks to the to-do list, toggle them as either complete or incomplete, and remove tasks. Additional navigation links are 
+included to: Contact, Login, and Account pages. 
 
-In the project directory, you can run:
+User Stories – To-do List App:
+User Story #1 – Frank
+As a dad, I am a user of many apps, but I have so many tasks and items all over many different applications. I would like a simple interface, no frills, task management application. So that I can be sure not to miss any more appointments, and stay on top of my day. 
+User Story #2 – Dan
+I am a student, studying finance at Vanderbilt university, I have a lot of books and papers to lug around, and my paper to-do-lists tend to keep getting lost as I move from class to class. I would like an application that allows me to keep track of which classes and homework assignments I need to stay on top of, while also allowing me to be aware of which assignments I’ve already completed. 
+User Story #3 – Clara
+I run a restaurant, and my associate always forgets items when he goes to pick up the groceries for the week. I need an app that will allow us to add items to the grocery list, where everyone can see them, and to keep them on after they’re checked off until the end of each work day for inventory purposes. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Wireframes are also provided in the GitHub repository for this application, as well as quick reference screenshots of the wireframes for ease of access. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Node modules have been removed to save space, but can easily be reinstalled by terminal command 'npm install' in the source directory.**
